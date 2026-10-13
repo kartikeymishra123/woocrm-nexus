@@ -1,0 +1,12 @@
+{
+  "name": "woocrm-nexus",
+  "version": "1.0.0",
+  "description": "WooCRM Nexus - Customer Relationship Management with WooCommerce Integration",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev": "npm --prefix server run dev",
+    "build": "npm --prefix client run build"
+  }
+}
